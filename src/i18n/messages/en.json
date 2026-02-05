@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "title": "Giveme Cloud - European Cloud Infrastructure",
+    "description": "High-performance cloud servers, VPS, and storage in Poland. GDPR compliant, EU data sovereignty, 24/7 support."
+  },
+  "nav": {
+    "products": "Products",
+    "vps": "Cloud VPS",
+    "dedicated": "Dedicated Servers",
+    "storage": "Object Storage",
+    "pricing": "Pricing",
+    "dataCenters": "Data Centers",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Get Started",
+    "docs": "Documentation",
+    "status": "Status"
+  },
+  "hero": {
+    "title": "Cloud Infrastructure.",
+    "titleAccent": "Simply Delivered.",
+    "subtitle": "High-performance servers in Poland. GDPR compliant by design. Transparent pricing with no hidden fees.",
+    "cta": "View Pricing",
+    "ctaSecondary": "Explore Products",
+    "trustedBy": "Trusted by developers across Europe"
+  },
+  "features": {
+    "title": "Why Choose Giveme Cloud?",
+    "subtitle": "Built for developers who value performance, privacy, and predictable pricing.",
+    "performance": {
+      "title": "Blazing Fast",
+      "description": "NVMe SSD storage, latest AMD EPYC processors, and low-latency network across Europe."
+    },
+    "security": {
+      "title": "Secure by Default",
+      "description": "DDoS protection, encrypted storage, and full GDPR compliance with data stored in the EU."
+    },
+    "support": {
+      "title": "24/7 Expert Support",
+      "description": "Real humans, not bots. Get help from our technical team whenever you need it."
+    },
+    "pricing": {
+      "title": "Honest Pricing",
+      "description": "No surprise bills. Predictable monthly pricing with all resources included."
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "All plans include DDoS protection, backups, and 24/7 support.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "annualDiscount": "Save 20%",
+    "perMonth": "/month",
+    "getStarted": "Get Started",
+    "mostPopular": "Most Popular",
+    "features": "What's included:",
+    "allPlansInclude": "All plans include",
+    "compare": "Compare all plans",
+    "customSolutions": "Need more resources?",
+    "contactSales": "Contact us for custom solutions",
+    "vat": "Prices exclude VAT where applicable",
+    "previewFeatures": [
+      "DDoS Protection",
+      "24/7 Support",
+      "Automated Backups"
+    ],
+    "includedFeatures": {
+      "ddosProtection": "DDoS Protection (Layer 3/4)",
+      "support247": "24/7 Technical Support",
+      "uptimeSla": "99.9% Uptime SLA",
+      "freeBandwidth": "Free Inbound Bandwidth",
+      "apiAccess": "API Access",
+      "teamAccess": "Team Access (up to 5 users)",
+      "monitoring": "Monitoring Dashboard"
+    },
+    "tabs": {
+      "vps": "Cloud VPS",
+      "dedicated": "Dedicated Servers",
+      "storage": "Object Storage",
+      "dedicatedCpuVps": "Dedicated CPU VPS",
+      "bareMetal": "Bare Metal Servers",
+      "configure": "Configure",
+      "columns": {
+        "model": "Model",
+        "cpu": "CPU",
+        "cores": "Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "price": "Price"
+      },
+      "labels": {
+        "vcpu": "vCPU",
+        "ram": "RAM",
+        "nvmeSsd": "NVMe SSD",
+        "bandwidth": "Bandwidth",
+        "dedicatedVcpu": "Dedicated vCPU",
+        "storage": "Storage",
+        "egress": "Egress"
+      },
+      "storagePlanNames": {
+        "payg": "Pay-as-you-go",
+        "bundle1": "1 TB Bundle",
+        "bundle5": "5 TB Bundle",
+        "bundle10": "10 TB Bundle",
+        "bundle50": "50 TB Bundle"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept Visa, Mastercard, American Express, PayPal, and SEPA bank transfers. For Polish customers, we also support Przelewy24 and BLIK. All payments are processed securely through Stripe."
+        },
+        {
+          "question": "Is there a money-back guarantee?",
+          "answer": "Yes! We offer a 14-day money-back guarantee for all new customers. If you are not satisfied with our services within the first 14 days, contact our support team for a full refund."
+        },
+        {
+          "question": "Can I upgrade or downgrade my plan?",
+          "answer": "Absolutely. You can upgrade or downgrade your plan at any time from the billing dashboard. When upgrading, you will be charged the prorated difference. Downgrades take effect at the next billing cycle."
+        },
+        {
+          "question": "What is the difference between shared and dedicated CPU?",
+          "answer": "Shared CPU VPS instances share processor resources with other customers on the same host, which is cost-effective for most workloads. Dedicated CPU VPS instances have CPU cores exclusively reserved for your use, providing consistent performance for CPU-intensive applications."
+        },
+        {
+          "question": "Do you offer custom configurations?",
+          "answer": "Yes! For dedicated servers and enterprise requirements, we offer custom configurations. Contact our sales team at hello@giveme.cloud to discuss your specific needs."
+        },
+        {
+          "question": "How is bandwidth measured?",
+          "answer": "Bandwidth is measured as outbound (egress) traffic only. Inbound traffic is always free and unlimited. Unused bandwidth does not roll over to the next month."
+        },
+        {
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "If you approach your bandwidth limit, we will notify you. You can either upgrade your plan or purchase additional bandwidth at €0.01/GB. We never suspend services without warning."
+        },
+        {
+          "question": "Do you provide invoices for VAT?",
+          "answer": "Yes, we provide VAT invoices for all business customers. EU businesses with a valid VAT ID can receive invoices with reverse charge. Polish businesses receive invoices with 23% VAT included."
+        }
+      ]
+    }
+  },
+  "datacenters": {
+    "title": "European Infrastructure",
+    "subtitle": "Your data stays in the EU. Always.",
+    "status": {
+      "operational": "All Systems Operational"
+    },
+    "highlight": {
+      "online": "Online",
+      "euDataSovereignty": "EU Data Sovereignty",
+      "gdprCompliant": "GDPR Compliant",
+      "learnMore": "Learn more about our infrastructure"
+    },
+    "poland": {
+      "title": "Warsaw, Poland",
+      "description": "Our primary data center in Warsaw offers excellent connectivity to Central and Eastern Europe.",
+      "cityLabel": "Warsaw",
+      "features": {
+        "tier3": "Tier III+ Data Center",
+        "power": "2N Power Redundancy", 
+        "network": "Multiple Tier 1 Carriers",
+        "latency": "<10ms to major EU cities"
+      }
+    },
+    "compliance": {
+      "title": "EU Data Sovereignty",
+      "description": "All data processed and stored exclusively within the European Union, ensuring full GDPR compliance and data sovereignty.",
+      "cards": {
+        "gdpr": {
+          "title": "GDPR Compliant",
+          "description": "Full compliance with EU data protection regulations"
+        },
+        "sovereignty": {
+          "title": "EU Data Sovereignty",
+          "description": "Your data never leaves the European Union"
+        },
+        "iso27001": {
+          "title": "ISO 27001",
+          "description": "Information security management (planned)"
+        }
+      }
+    },
+    "network": {
+      "title": "Network",
+      "bandwidth": "10 Gbps+ Uplinks",
+      "peering": "Direct peering with major exchanges",
+      "partners": "Network Partners",
+      "stats": {
+        "uplinkCapacity": "Uplink Capacity",
+        "latencyFrankfurt": "Latency to Frankfurt",
+        "latencyAmsterdam": "Latency to Amsterdam",
+        "tier1Carriers": "Tier 1 Carriers"
+      }
+    },
+    "specifications": [
+      { "label": "Location", "value": "Warsaw, Poland" },
+      { "label": "Data Center Tier", "value": "Tier III+" },
+      { "label": "Total Power", "value": "10 MW" },
+      { "label": "Power Redundancy", "value": "2N UPS + Generator" },
+      { "label": "Cooling", "value": "N+1 Redundant" },
+      { "label": "Fire Suppression", "value": "FM-200 Gas System" },
+      { "label": "Physical Security", "value": "24/7 On-site Guards" },
+      { "label": "Access Control", "value": "Biometric + Card" }
+    ]
+  },
+  "trust": {
+    "uptime": "99.9% Uptime SLA",
+    "support": "24/7 Support",
+    "datacenters": "EU Data Centers",
+    "customers": "Active Customers"
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Deploy your first server in minutes.",
+    "button": "Create Free Account",
+    "note": "No credit card required to start"
+  },
+  "footer": {
+    "description": "European cloud infrastructure built for developers. GDPR compliant, transparent pricing, 24/7 support.",
+    "products": "Products",
+    "company": "Company",
+    "legal": "Legal",
+    "support": "Support",
+    "resources": "Resources",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "aup": "Acceptable Use",
+    "sla": "SLA",
+    "cookies": "Cookie Policy",
+    "allRights": "All rights reserved.",
+    "madeWith": "Made with",
+    "inPoland": "in Poland"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company (optional)",
+      "subject": "Subject",
+      "message": "Message",
+      "placeholders": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "company": "Acme Inc.",
+        "subject": "Sales inquiry",
+        "message": "How can we help you?"
+      },
+      "privacyConsent": "I have read and accept the <link>Privacy Policy</link>",
+      "marketingConsent": "I agree to receive marketing communications (optional)",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "support": "Support",
+      "sales": "Sales",
+      "address": "Address",
+      "hours": "Support Hours",
+      "hoursValue": "24/7"
+    },
+    "companyInfo": {
+      "title": "Company Information"
+    }
+  },
+  "about": {
+    "title": "About Giveme Cloud",
+    "subtitle": "Building the cloud infrastructure Europe deserves.",
+    "story": {
+      "title": "Our Story",
+      "content": "Founded in Poland, Giveme Cloud was built on a simple belief: European businesses deserve cloud infrastructure that respects their data, offers transparent pricing, and provides exceptional performance without the complexity of hyperscaler platforms."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide developers and businesses with reliable, affordable, and privacy-respecting cloud infrastructure that keeps data where it belongs - in Europe."
+    },
+    "values": {
+      "title": "Our Values",
+      "transparency": {
+        "title": "Transparency",
+        "description": "No hidden fees, no surprise bills. What you see is what you pay."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Your data is yours. We're GDPR compliant by design, not afterthought."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "99.9% uptime SLA backed by redundant infrastructure."
+      },
+      "simplicity": {
+        "title": "Simplicity",
+        "description": "Powerful infrastructure that's easy to use and manage."
+      }
+    },
+    "whyPoland": {
+      "title": "Why Poland?",
+      "items": [
+        {
+          "title": "Strategic Location",
+          "description": "Poland sits at the crossroads of Western and Eastern Europe, providing excellent connectivity to all major European markets with low latency."
+        },
+        {
+          "title": "EU Member State",
+          "description": "As an EU member, Poland offers strong data protection laws, legal stability, and full GDPR compliance for businesses operating in Europe."
+        },
+        {
+          "title": "Cost-Effective Operations",
+          "description": "Lower operational costs compared to Western European data centers allow us to offer competitive pricing without compromising on quality."
+        },
+        {
+          "title": "Growing Tech Hub",
+          "description": "Poland has a thriving tech ecosystem with a large pool of talented engineers and a growing startup scene."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This Privacy Policy explains how Giveme Cloud Sp. z o.o. collects, uses, and protects your personal data."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "These Terms of Service govern your use of Giveme Cloud services."
+    },
+    "aup": {
+      "title": "Acceptable Use Policy",
+      "intro": "This policy outlines acceptable and prohibited uses of Giveme Cloud services."
+    },
+    "sla": {
+      "title": "Service Level Agreement",
+      "intro": "This SLA describes our uptime commitments and service credits."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "intro": "This policy explains how we use cookies and similar technologies."
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "We value your privacy",
+      "description": "We use cookies to improve your experience. You can choose which cookies to accept.",
+      "acceptAll": "Accept All",
+      "rejectAll": "Reject All", 
+      "customize": "Customize",
+      "save": "Save Preferences"
+    },
+    "categories": {
+      "necessary": {
+        "title": "Necessary",
+        "description": "Required for the website to function. Cannot be disabled."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Help us understand how visitors interact with our website."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Used to deliver relevant advertisements."
+      }
+    }
+  },
+  "products": {
+    "vps": {
+      "title": "Cloud VPS",
+      "subtitle": "Scalable virtual private servers with dedicated resources",
+      "description": "Deploy in seconds, scale on demand. Our cloud VPS instances offer dedicated CPU, RAM, and NVMe storage with predictable performance.",
+      "ctaPricing": "View Pricing",
+      "ctaGetStarted": "Get Started",
+      "featuresTitle": "VPS Features",
+      "useCasesTitle": "Popular Use Cases",
+      "plansTitle": "VPS Plans Starting From",
+      "viewAllPlans": "View All VPS Plans",
+      "features": {
+        "cpu": "Dedicated vCPU cores",
+        "ram": "DDR5 ECC RAM",
+        "storage": "NVMe SSD Storage",
+        "network": "10 Gbps Network",
+        "os": "Linux & Windows",
+        "backup": "Automated Backups"
+      },
+      "useCases": [
+        { "title": "Web Hosting", "description": "Host websites, web applications, and WordPress sites with ease." },
+        { "title": "Development & Testing", "description": "Spin up development environments and test new applications." },
+        { "title": "E-commerce", "description": "Run online stores with reliable performance and uptime." },
+        { "title": "Game Servers", "description": "Host multiplayer game servers with low latency." },
+        { "title": "VPN & Proxy", "description": "Set up your own VPN or proxy server for privacy." },
+        { "title": "Databases", "description": "Run MySQL, PostgreSQL, MongoDB, and other databases." }
+      ]
+    },
+    "dedicated": {
+      "title": "Dedicated Servers",
+      "subtitle": "Bare metal performance for demanding workloads",
+      "description": "Full hardware control with enterprise-grade components. Ideal for high-performance applications, databases, and compute-intensive tasks.",
+      "ctaPricing": "View Pricing",
+      "ctaContactSales": "Contact Sales",
+      "featuresTitle": "Why Choose Dedicated Servers?",
+      "configurationsTitle": "Available Configurations",
+      "useCasesTitle": "Ideal For",
+      "customConfig": "Need a custom configuration? <link>Contact us</link> for a quote.",
+      "table": {
+        "model": "Model",
+        "cpu": "CPU",
+        "cores": "Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "price": "Price",
+        "order": "Order"
+      },
+      "features": {
+        "bareMetal": {
+          "title": "Bare Metal Performance",
+          "description": "Full hardware control with no virtualization overhead."
+        },
+        "cpu": {
+          "title": "Latest AMD EPYC",
+          "description": "Enterprise-grade processors with exceptional performance."
+        },
+        "storage": {
+          "title": "NVMe RAID Storage",
+          "description": "High-speed NVMe SSDs in RAID configuration."
+        },
+        "bandwidth": {
+          "title": "Unmetered Bandwidth",
+          "description": "1 Gbps port with unlimited traffic."
+        },
+        "ddos": {
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation included."
+        },
+        "root": {
+          "title": "Full Root Access",
+          "description": "Complete control over your server configuration."
+        }
+      },
+      "useCases": [
+        { "title": "High-Traffic Websites", "description": "Handle millions of visitors with dedicated resources." },
+        { "title": "Database Servers", "description": "Run large databases with consistent I/O performance." },
+        { "title": "Video Streaming", "description": "Deliver video content with high bandwidth capacity." },
+        { "title": "Machine Learning", "description": "Train ML models with powerful compute resources." },
+        { "title": "Enterprise Applications", "description": "Run ERP, CRM, and other enterprise software." },
+        { "title": "Virtualization Host", "description": "Create your own VPS infrastructure." }
+      ]
+    },
+    "storage": {
+      "title": "Object Storage",
+      "subtitle": "S3-compatible storage for any scale",
+      "description": "Store and serve unlimited data with our S3-compatible object storage. Perfect for backups, media files, and static assets.",
+      "ctaPricing": "View Pricing",
+      "ctaGetStarted": "Get Started",
+      "featuresTitle": "Storage Features",
+      "plansTitle": "Storage Plans",
+      "useCasesTitle": "Common Use Cases",
+      "easeTitle": "Easy to Use",
+      "features": {
+        "s3": {
+          "title": "S3-Compatible API",
+          "description": "Use your existing S3 tools and libraries seamlessly."
+        },
+        "encrypted": {
+          "title": "Encrypted at Rest",
+          "description": "All data is encrypted using AES-256 encryption."
+        },
+        "cdn": {
+          "title": "Global CDN Ready",
+          "description": "Easily integrate with CDN providers for global delivery."
+        },
+        "performance": {
+          "title": "High Performance",
+          "description": "Fast upload and download speeds across Europe."
+        },
+        "durability": {
+          "title": "11 Nines Durability",
+          "description": "99.999999999% data durability guaranteed."
+        },
+        "versioning": {
+          "title": "Versioning",
+          "description": "Keep multiple versions of your objects."
+        }
+      },
+      "useCases": [
+        { "title": "Backups", "description": "Store database backups, server snapshots, and disaster recovery data." },
+        { "title": "Media Storage", "description": "Host images, videos, and audio files for your applications." },
+        { "title": "Static Assets", "description": "Serve CSS, JavaScript, and other static website files." },
+        { "title": "Data Lakes", "description": "Store large datasets for analytics and machine learning." },
+        { "title": "Application Data", "description": "Store user uploads, documents, and application files." },
+        { "title": "Archive Storage", "description": "Long-term storage for compliance and historical data." }
+      ]
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "button": "Go Home"
+    },
+    "500": {
+      "title": "Server Error",
+      "description": "Something went wrong on our end. Please try again later.",
+      "button": "Go Home"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "backToHome": "Back to Home",
+    "loading": "Loading...",
+    "currency": "EUR",
+    "currencySymbol": "€"
+  }
+}

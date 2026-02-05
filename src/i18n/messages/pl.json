@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "title": "Giveme Cloud - Europejska Infrastruktura Chmurowa",
+    "description": "Wydajne serwery chmurowe, VPS i storage w Polsce. Zgodność z RODO, suwerenność danych w UE, wsparcie 24/7."
+  },
+  "nav": {
+    "products": "Produkty",
+    "vps": "Cloud VPS",
+    "dedicated": "Serwery Dedykowane",
+    "storage": "Object Storage",
+    "pricing": "Cennik",
+    "dataCenters": "Centra Danych",
+    "about": "O Nas",
+    "contact": "Kontakt",
+    "login": "Zaloguj",
+    "register": "Rozpocznij",
+    "docs": "Dokumentacja",
+    "status": "Status"
+  },
+  "hero": {
+    "title": "Infrastruktura Chmurowa.",
+    "titleAccent": "Po Prostu Dostarczona.",
+    "subtitle": "Wydajne serwery w Polsce. Zgodność z RODO od podstaw. Przejrzyste ceny bez ukrytych opłat.",
+    "cta": "Zobacz Cennik",
+    "ctaSecondary": "Poznaj Produkty",
+    "trustedBy": "Zaufali nam deweloperzy z całej Europy"
+  },
+  "features": {
+    "title": "Dlaczego Giveme Cloud?",
+    "subtitle": "Stworzone dla deweloperów ceniących wydajność, prywatność i przewidywalne ceny.",
+    "performance": {
+      "title": "Błyskawiczna Szybkość",
+      "description": "Dyski NVMe SSD, najnowsze procesory AMD EPYC i sieć o niskim opóźnieniu w całej Europie."
+    },
+    "security": {
+      "title": "Bezpieczeństwo Domyślnie",
+      "description": "Ochrona DDoS, szyfrowany storage i pełna zgodność z RODO z danymi przechowywanymi w UE."
+    },
+    "support": {
+      "title": "Wsparcie 24/7",
+      "description": "Prawdziwi ludzie, nie boty. Uzyskaj pomoc od naszego zespołu technicznego kiedy tylko potrzebujesz."
+    },
+    "pricing": {
+      "title": "Uczciwe Ceny",
+      "description": "Bez niespodziewanych rachunków. Przewidywalne miesięczne ceny ze wszystkimi zasobami w cenie."
+    }
+  },
+  "pricing": {
+    "title": "Prosty, Przejrzysty Cennik",
+    "subtitle": "Wszystkie plany zawierają ochronę DDoS, backupy i wsparcie 24/7.",
+    "monthly": "Miesięcznie",
+    "annually": "Rocznie",
+    "annualDiscount": "Oszczędź 20%",
+    "perMonth": "/miesiąc",
+    "getStarted": "Rozpocznij",
+    "mostPopular": "Najpopularniejszy",
+    "features": "Co zawiera:",
+    "allPlansInclude": "Wszystkie plany zawierają",
+    "compare": "Porównaj wszystkie plany",
+    "customSolutions": "Potrzebujesz więcej zasobów?",
+    "contactSales": "Skontaktuj się z nami w sprawie rozwiązań na miarę",
+    "vat": "Ceny nie zawierają VAT",
+    "previewFeatures": [
+      "Ochrona DDoS",
+      "Wsparcie 24/7",
+      "Automatyczne kopie zapasowe"
+    ],
+    "includedFeatures": {
+      "ddosProtection": "Ochrona DDoS (Warstwa 3/4)",
+      "support247": "Wsparcie techniczne 24/7",
+      "uptimeSla": "SLA 99.9% uptime",
+      "freeBandwidth": "Bezpłatny transfer przychodzący",
+      "apiAccess": "Dostęp do API",
+      "teamAccess": "Dostęp zespołowy (do 5 użytkowników)",
+      "monitoring": "Panel monitoringu"
+    },
+    "tabs": {
+      "vps": "Cloud VPS",
+      "dedicated": "Serwery Dedykowane",
+      "storage": "Magazyn Obiektowy",
+      "dedicatedCpuVps": "Dedykowany CPU VPS",
+      "bareMetal": "Serwery Bare Metal",
+      "configure": "Konfiguruj",
+      "columns": {
+        "model": "Model",
+        "cpu": "CPU",
+        "cores": "Rdzenie",
+        "ram": "RAM",
+        "storage": "Pamięć masowa",
+        "price": "Cena"
+      },
+      "labels": {
+        "vcpu": "vCPU",
+        "ram": "RAM",
+        "nvmeSsd": "NVMe SSD",
+        "bandwidth": "Transfer",
+        "dedicatedVcpu": "Dedykowane vCPU",
+        "storage": "Pojemność",
+        "egress": "Transfer wychodzący"
+      },
+      "storagePlanNames": {
+        "payg": "Płać za użycie",
+        "bundle1": "Pakiet 1 TB",
+        "bundle5": "Pakiet 5 TB",
+        "bundle10": "Pakiet 10 TB",
+        "bundle50": "Pakiet 50 TB"
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "items": [
+        {
+          "question": "Jakie metody płatności akceptujecie?",
+          "answer": "Akceptujemy Visa, Mastercard, American Express, PayPal oraz przelewy SEPA. Dla klientów z Polski obsługujemy także Przelewy24 i BLIK. Wszystkie płatności są bezpiecznie przetwarzane przez Stripe."
+        },
+        {
+          "question": "Czy oferujecie gwarancję zwrotu pieniędzy?",
+          "answer": "Tak! Oferujemy 14-dniową gwarancję zwrotu pieniędzy dla nowych klientów. Jeśli nie jesteś zadowolony/a w ciągu pierwszych 14 dni, skontaktuj się z naszym wsparciem, a zwrócimy pełną kwotę."
+        },
+        {
+          "question": "Czy mogę zmienić plan na wyższy lub niższy?",
+          "answer": "Oczywiście. Możesz zmienić plan w dowolnym momencie z poziomu panelu rozliczeń. Przy podwyższeniu naliczymy różnicę proporcjonalnie do okresu. Obniżenie wchodzi w życie od następnego cyklu rozliczeniowego."
+        },
+        {
+          "question": "Jaka jest różnica między współdzielonym a dedykowanym CPU?",
+          "answer": "Instancje VPS ze współdzielonym CPU dzielą zasoby procesora z innymi klientami na tym samym hoście, co jest opłacalne dla większości obciążeń. VPS z dedykowanym CPU ma rdzenie zarezerwowane wyłącznie dla Ciebie, zapewniając stałą wydajność dla zastosowań CPU-intensywnych."
+        },
+        {
+          "question": "Czy oferujecie konfiguracje niestandardowe?",
+          "answer": "Tak! Dla serwerów dedykowanych i wymagań enterprise oferujemy konfiguracje na miarę. Skontaktuj się z naszym zespołem sprzedaży pod adresem hello@giveme.cloud, aby omówić potrzeby."
+        },
+        {
+          "question": "Jak mierzycie transfer danych?",
+          "answer": "Transfer jest liczony tylko jako ruch wychodzący (egress). Ruch przychodzący jest zawsze darmowy i nielimitowany. Niewykorzystany transfer nie przechodzi na kolejny miesiąc."
+        },
+        {
+          "question": "Co się stanie, jeśli przekroczę limit transferu?",
+          "answer": "Gdy zbliżysz się do limitu, poinformujemy Cię. Możesz podnieść plan lub dokupić dodatkowy transfer w cenie €0.01/GB. Nigdy nie zawieszamy usług bez ostrzeżenia."
+        },
+        {
+          "question": "Czy wystawiacie faktury VAT?",
+          "answer": "Tak, wystawiamy faktury VAT dla wszystkich klientów biznesowych. Firmy z UE z ważnym VAT ID mogą otrzymać faktury z odwrotnym obciążeniem. Polskie firmy otrzymują faktury z 23% VAT."
+        }
+      ]
+    }
+  },
+  "datacenters": {
+    "title": "Europejska Infrastruktura",
+    "subtitle": "Twoje dane zostają w UE. Zawsze.",
+    "status": {
+      "operational": "Wszystkie systemy działają poprawnie"
+    },
+    "highlight": {
+      "online": "Online",
+      "euDataSovereignty": "Suwerenność danych w UE",
+      "gdprCompliant": "Zgodność z RODO",
+      "learnMore": "Dowiedz się więcej o naszej infrastrukturze"
+    },
+    "poland": {
+      "title": "Warszawa, Polska",
+      "description": "Nasze główne centrum danych w Warszawie oferuje doskonałą łączność z Europą Środkową i Wschodnią.",
+      "cityLabel": "Warszawa",
+      "features": {
+        "tier3": "Centrum Danych Tier III+",
+        "power": "Redundancja Zasilania 2N",
+        "network": "Wielu Operatorów Tier 1",
+        "latency": "<10ms do głównych miast UE"
+      }
+    },
+    "compliance": {
+      "title": "Suwerenność Danych w UE",
+      "description": "Wszystkie dane przetwarzane i przechowywane wyłącznie na terenie Unii Europejskiej, zapewniając pełną zgodność z RODO i suwerenność danych.",
+      "cards": {
+        "gdpr": {
+          "title": "Zgodność z RODO",
+          "description": "Pełna zgodność z unijnymi przepisami o ochronie danych"
+        },
+        "sovereignty": {
+          "title": "Suwerenność danych w UE",
+          "description": "Twoje dane nigdy nie opuszczają Unii Europejskiej"
+        },
+        "iso27001": {
+          "title": "ISO 27001",
+          "description": "Zarządzanie bezpieczeństwem informacji (planowane)"
+        }
+      }
+    },
+    "network": {
+      "title": "Sieć",
+      "bandwidth": "Łącza 10 Gbps+",
+      "peering": "Bezpośredni peering z głównymi punktami wymiany",
+      "partners": "Partnerzy sieciowi",
+      "stats": {
+        "uplinkCapacity": "Pojemność łącza",
+        "latencyFrankfurt": "Opóźnienie do Frankfurtu",
+        "latencyAmsterdam": "Opóźnienie do Amsterdamu",
+        "tier1Carriers": "Operatorzy Tier 1"
+      }
+    },
+    "specifications": [
+      { "label": "Lokalizacja", "value": "Warszawa, Polska" },
+      { "label": "Klasa centrum danych", "value": "Tier III+" },
+      { "label": "Całkowita moc", "value": "10 MW" },
+      { "label": "Redundancja zasilania", "value": "2N UPS + Generator" },
+      { "label": "Chłodzenie", "value": "N+1 redundantne" },
+      { "label": "Gaszenie pożaru", "value": "System gazowy FM-200" },
+      { "label": "Ochrona fizyczna", "value": "Ochrona na miejscu 24/7" },
+      { "label": "Kontrola dostępu", "value": "Biometria + karta" }
+    ]
+  },
+  "trust": {
+    "uptime": "SLA 99.9% Uptime",
+    "support": "Wsparcie 24/7",
+    "datacenters": "Centra Danych w UE",
+    "customers": "Aktywnych Klientów"
+  },
+  "cta": {
+    "title": "Gotowy do startu?",
+    "subtitle": "Uruchom swój pierwszy serwer w kilka minut.",
+    "button": "Załóż Darmowe Konto",
+    "note": "Karta kredytowa nie jest wymagana na start"
+  },
+  "footer": {
+    "description": "Europejska infrastruktura chmurowa stworzona dla deweloperów. Zgodność z RODO, przejrzyste ceny, wsparcie 24/7.",
+    "products": "Produkty",
+    "company": "Firma",
+    "legal": "Prawne",
+    "support": "Wsparcie",
+    "resources": "Zasoby",
+    "terms": "Regulamin",
+    "privacy": "Polityka Prywatności",
+    "aup": "Zasady Użytkowania",
+    "sla": "SLA",
+    "cookies": "Polityka Cookies",
+    "allRights": "Wszelkie prawa zastrzeżone.",
+    "madeWith": "Stworzone z",
+    "inPoland": "w Polsce"
+  },
+  "contact": {
+    "title": "Skontaktuj się z Nami",
+    "subtitle": "Masz pytania? Chętnie pomożemy.",
+    "form": {
+      "name": "Imię i Nazwisko",
+      "email": "Adres Email",
+      "company": "Firma (opcjonalnie)",
+      "subject": "Temat",
+      "message": "Wiadomość",
+      "placeholders": {
+        "name": "Jan Kowalski",
+        "email": "jan@example.com",
+        "company": "Acme Sp. z o.o.",
+        "subject": "Zapytanie sprzedażowe",
+        "message": "Jak możemy pomóc?"
+      },
+      "privacyConsent": "Zapoznałem/am się i akceptuję <link>Politykę Prywatności</link>",
+      "marketingConsent": "Zgadzam się na otrzymywanie komunikacji marketingowej (opcjonalnie)",
+      "submit": "Wyślij Wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Wiadomość wysłana! Odezwiemy się wkrótce.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "info": {
+      "title": "Dane Kontaktowe",
+      "email": "Email",
+      "support": "Wsparcie",
+      "sales": "Sprzedaż",
+      "address": "Adres",
+      "hours": "Godziny Wsparcia",
+      "hoursValue": "24/7"
+    },
+    "companyInfo": {
+      "title": "Informacje o Firmie"
+    }
+  },
+  "about": {
+    "title": "O Giveme Cloud",
+    "subtitle": "Budujemy infrastrukturę chmurową, na jaką Europa zasługuje.",
+    "story": {
+      "title": "Nasza Historia",
+      "content": "Założona w Polsce, Giveme Cloud powstała z prostego przekonania: europejskie firmy zasługują na infrastrukturę chmurową, która szanuje ich dane, oferuje przejrzyste ceny i zapewnia wyjątkową wydajność bez złożoności platform hyperscalerów."
+    },
+    "mission": {
+      "title": "Nasza Misja",
+      "content": "Dostarczanie deweloperom i firmom niezawodnej, przystępnej cenowo i szanującej prywatność infrastruktury chmurowej, która utrzymuje dane tam, gdzie powinny być - w Europie."
+    },
+    "values": {
+      "title": "Nasze Wartości",
+      "transparency": {
+        "title": "Przejrzystość",
+        "description": "Żadnych ukrytych opłat, żadnych niespodziewanych rachunków. To co widzisz, to płacisz."
+      },
+      "privacy": {
+        "title": "Prywatność",
+        "description": "Twoje dane są Twoje. Zgodność z RODO od podstaw, nie jako dodatek."
+      },
+      "reliability": {
+        "title": "Niezawodność",
+        "description": "SLA 99.9% uptime wsparte redundantną infrastrukturą."
+      },
+      "simplicity": {
+        "title": "Prostota",
+        "description": "Potężna infrastruktura, która jest łatwa w użyciu i zarządzaniu."
+      }
+    },
+    "whyPoland": {
+      "title": "Dlaczego Polska?",
+      "items": [
+        {
+          "title": "Strategiczne Położenie",
+          "description": "Polska leży na styku Europy Zachodniej i Wschodniej, zapewniając świetną łączność z głównymi rynkami europejskimi i niskie opóźnienia."
+        },
+        {
+          "title": "Członek Unii Europejskiej",
+          "description": "Jako członek UE Polska oferuje silne przepisy ochrony danych, stabilność prawną oraz pełną zgodność z RODO dla firm działających w Europie."
+        },
+        {
+          "title": "Efektywne Kosztowo Operacje",
+          "description": "Niższe koszty operacyjne w porównaniu z Europą Zachodnią pozwalają nam oferować konkurencyjne ceny bez kompromisów jakości."
+        },
+        {
+          "title": "Rozwijający się Hub Technologiczny",
+          "description": "Polska ma prężny ekosystem technologiczny z dużą pulą utalentowanych inżynierów i rosnącą sceną startupową."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "lastUpdated": "Ostatnia aktualizacja",
+    "privacy": {
+      "title": "Polityka Prywatności",
+      "intro": "Niniejsza Polityka Prywatności wyjaśnia, jak Giveme Cloud Sp. z o.o. zbiera, wykorzystuje i chroni Twoje dane osobowe."
+    },
+    "terms": {
+      "title": "Regulamin",
+      "intro": "Niniejszy Regulamin określa zasady korzystania z usług Giveme Cloud."
+    },
+    "aup": {
+      "title": "Zasady Dopuszczalnego Użytkowania",
+      "intro": "Ta polityka określa dopuszczalne i zabronione sposoby korzystania z usług Giveme Cloud."
+    },
+    "sla": {
+      "title": "Umowa o Poziomie Usług",
+      "intro": "Niniejsza umowa SLA opisuje nasze zobowiązania dotyczące dostępności i kredyty serwisowe."
+    },
+    "cookies": {
+      "title": "Polityka Cookies",
+      "intro": "Ta polityka wyjaśnia, jak używamy plików cookies i podobnych technologii."
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cenimy Twoją prywatność",
+      "description": "Używamy plików cookies, aby poprawić Twoje doświadczenia. Możesz wybrać, które cookies akceptujesz.",
+      "acceptAll": "Akceptuj Wszystkie",
+      "rejectAll": "Odrzuć Wszystkie",
+      "customize": "Dostosuj",
+      "save": "Zapisz Preferencje"
+    },
+    "categories": {
+      "necessary": {
+        "title": "Niezbędne",
+        "description": "Wymagane do działania strony. Nie można wyłączyć."
+      },
+      "analytics": {
+        "title": "Analityczne",
+        "description": "Pomagają nam zrozumieć, jak odwiedzający korzystają z naszej strony."
+      },
+      "marketing": {
+        "title": "Marketingowe",
+        "description": "Używane do wyświetlania odpowiednich reklam."
+      }
+    }
+  },
+  "products": {
+    "vps": {
+      "title": "Cloud VPS",
+      "subtitle": "Skalowalne wirtualne serwery prywatne z dedykowanymi zasobami",
+      "description": "Wdrożenie w sekundy, skalowanie na żądanie. Nasze instancje cloud VPS oferują dedykowany CPU, RAM i storage NVMe z przewidywalną wydajnością.",
+      "ctaPricing": "Zobacz Cennik",
+      "ctaGetStarted": "Rozpocznij",
+      "featuresTitle": "Funkcje VPS",
+      "useCasesTitle": "Popularne zastosowania",
+      "plansTitle": "Plany VPS od",
+      "viewAllPlans": "Zobacz wszystkie plany VPS",
+      "features": {
+        "cpu": "Dedykowane rdzenie vCPU",
+        "ram": "Pamięć DDR5 ECC",
+        "storage": "Storage NVMe SSD",
+        "network": "Sieć 10 Gbps",
+        "os": "Linux i Windows",
+        "backup": "Automatyczne Backupy"
+      },
+      "useCases": [
+        { "title": "Hosting WWW", "description": "Hostuj strony internetowe, aplikacje webowe i WordPress bez problemu." },
+        { "title": "Development i Testy", "description": "Twórz środowiska deweloperskie i testuj nowe aplikacje." },
+        { "title": "E-commerce", "description": "Prowadź sklepy online z niezawodną wydajnością i uptime." },
+        { "title": "Serwery gier", "description": "Hostuj serwery gier wieloosobowych z niskim opóźnieniem." },
+        { "title": "VPN i Proxy", "description": "Skonfiguruj własny serwer VPN lub proxy dla prywatności." },
+        { "title": "Bazy danych", "description": "Uruchamiaj MySQL, PostgreSQL, MongoDB i inne bazy danych." }
+      ]
+    },
+    "dedicated": {
+      "title": "Serwery Dedykowane",
+      "subtitle": "Wydajność bare metal dla wymagających obciążeń",
+      "description": "Pełna kontrola nad sprzętem z komponentami klasy enterprise. Idealny dla aplikacji o wysokiej wydajności, baz danych i zadań obliczeniowych.",
+      "ctaPricing": "Zobacz Cennik",
+      "ctaContactSales": "Kontakt ze Sprzedażą",
+      "featuresTitle": "Dlaczego serwery dedykowane?",
+      "configurationsTitle": "Dostępne konfiguracje",
+      "useCasesTitle": "Idealne do",
+      "customConfig": "Potrzebujesz niestandardowej konfiguracji? <link>Skontaktuj się z nami</link> po wycenę.",
+      "table": {
+        "model": "Model",
+        "cpu": "CPU",
+        "cores": "Rdzenie",
+        "ram": "RAM",
+        "storage": "Pamięć masowa",
+        "price": "Cena",
+        "order": "Zamów"
+      },
+      "features": {
+        "bareMetal": {
+          "title": "Wydajność Bare Metal",
+          "description": "Pełna kontrola sprzętu bez narzutu wirtualizacji."
+        },
+        "cpu": {
+          "title": "Najnowsze AMD EPYC",
+          "description": "Procesory klasy enterprise o wyjątkowej wydajności."
+        },
+        "storage": {
+          "title": "NVMe RAID Storage",
+          "description": "Szybkie dyski NVMe SSD w konfiguracji RAID."
+        },
+        "bandwidth": {
+          "title": "Nielimitowany transfer",
+          "description": "Port 1 Gbps z nieograniczonym ruchem."
+        },
+        "ddos": {
+          "title": "Ochrona DDoS",
+          "description": "Wbudowana ochrona DDoS klasy enterprise."
+        },
+        "root": {
+          "title": "Pełny dostęp root",
+          "description": "Pełna kontrola nad konfiguracją serwera."
+        }
+      },
+      "useCases": [
+        { "title": "Strony o dużym ruchu", "description": "Obsługuj miliony odwiedzin dzięki dedykowanym zasobom." },
+        { "title": "Serwery baz danych", "description": "Uruchamiaj duże bazy danych ze stabilną wydajnością I/O." },
+        { "title": "Streaming wideo", "description": "Dostarczaj treści wideo z dużą przepustowością." },
+        { "title": "Uczenie maszynowe", "description": "Trenuj modele ML z potężnymi zasobami obliczeniowymi." },
+        { "title": "Aplikacje enterprise", "description": "Uruchamiaj ERP, CRM i inne aplikacje biznesowe." },
+        { "title": "Host wirtualizacji", "description": "Zbuduj własną infrastrukturę VPS." }
+      ]
+    },
+    "storage": {
+      "title": "Object Storage",
+      "subtitle": "Storage zgodny z S3 dla każdej skali",
+      "description": "Przechowuj i serwuj nieograniczone ilości danych z naszym object storage zgodnym z S3. Idealny dla backupów, plików multimedialnych i zasobów statycznych.",
+      "ctaPricing": "Zobacz Cennik",
+      "ctaGetStarted": "Rozpocznij",
+      "featuresTitle": "Funkcje storage",
+      "plansTitle": "Plany storage",
+      "useCasesTitle": "Typowe zastosowania",
+      "easeTitle": "Łatwe w użyciu",
+      "features": {
+        "s3": {
+          "title": "API zgodne z S3",
+          "description": "Korzystaj z istniejących narzędzi i bibliotek S3 bez zmian."
+        },
+        "encrypted": {
+          "title": "Szyfrowanie w spoczynku",
+          "description": "Wszystkie dane są szyfrowane przy użyciu AES-256."
+        },
+        "cdn": {
+          "title": "Gotowe na CDN",
+          "description": "Łatwa integracja z dostawcami CDN dla globalnej dystrybucji."
+        },
+        "performance": {
+          "title": "Wysoka wydajność",
+          "description": "Szybkie wysyłanie i pobieranie danych w całej Europie."
+        },
+        "durability": {
+          "title": "Trwałość 11 dziewiątek",
+          "description": "Gwarantowana trwałość danych 99.999999999%."
+        },
+        "versioning": {
+          "title": "Wersjonowanie",
+          "description": "Przechowuj wiele wersji swoich obiektów."
+        }
+      },
+      "useCases": [
+        { "title": "Backupy", "description": "Przechowuj kopie zapasowe baz danych, snapshoty serwerów i dane DR." },
+        { "title": "Magazyn multimediów", "description": "Przechowuj obrazy, wideo i audio dla swoich aplikacji." },
+        { "title": "Zasoby statyczne", "description": "Serwuj pliki CSS, JavaScript i inne zasoby strony." },
+        { "title": "Data lakes", "description": "Przechowuj duże zbiory danych do analityki i ML." },
+        { "title": "Dane aplikacji", "description": "Przechowuj pliki użytkowników, dokumenty i dane aplikacji." },
+        { "title": "Archiwizacja", "description": "Długoterminowe przechowywanie dla zgodności i historii." }
+      ]
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Strona Nie Znaleziona",
+      "description": "Strona, której szukasz nie istnieje lub została przeniesiona.",
+      "button": "Wróć na Stronę Główną"
+    },
+    "500": {
+      "title": "Błąd Serwera",
+      "description": "Coś poszło nie tak po naszej stronie. Spróbuj ponownie później.",
+      "button": "Wróć na Stronę Główną"
+    }
+  },
+  "common": {
+    "learnMore": "Dowiedz się więcej",
+    "viewAll": "Zobacz Wszystkie",
+    "backToHome": "Wróć na Stronę Główną",
+    "loading": "Ładowanie...",
+    "currency": "EUR",
+    "currencySymbol": "€"
+  }
+}

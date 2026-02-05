@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af" />
+      <stop offset="100%" style="stop-color:#0891b2" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 10)">
+    <!-- Cloud -->
+    <path d="M10 25 C10 18 15 12 24 12 C27 6 36 6 41 12 C48 12 54 18 54 25 C54 32 48 36 41 36 L17 36 C10 36 6 32 10 25Z" 
+          fill="url(#grad)"/>
+    <!-- 3 thin server lines -->
+    <rect x="8" y="41" width="48" height="4" rx="1.5" fill="url(#grad)" opacity="0.55"/>
+    <rect x="8" y="48" width="48" height="4" rx="1.5" fill="url(#grad)" opacity="0.4"/>
+    <rect x="8" y="55" width="48" height="4" rx="1.5" fill="url(#grad)" opacity="0.25"/>
+  </g>
+  <text x="82" y="52" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="40" font-weight="700" fill="#1e3a5f">giveme<tspan fill="#0891b2" font-weight="400">.cloud</tspan></text>
+</svg>
