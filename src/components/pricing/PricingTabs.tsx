@@ -5,12 +5,17 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { VPS_PLANS, DEDICATED_CPU_PLANS, DEDICATED_SERVERS, STORAGE_PLANS } from '@/lib/constants';
+import type { PricingContent } from '@/lib/cms-types';
 import { EXTERNAL_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
 type TabKey = 'vps' | 'dedicated' | 'storage';
 
-export function PricingTabs() {
+type PricingTabsProps = {
+  data?: PricingContent;
+};
+
+export function PricingTabs({ data }: PricingTabsProps) {
   const t = useTranslations('pricing');
   const tt = useTranslations('pricing.tabs');
   const [activeTab, setActiveTab] = useState<TabKey>('vps');
@@ -32,6 +37,11 @@ export function PricingTabs() {
     }
     return monthlyPrice;
   };
+
+  const vpsPlans = data?.vpsPlans ?? VPS_PLANS;
+  const dedicatedCpuPlans = data?.dedicatedCpuPlans ?? DEDICATED_CPU_PLANS;
+  const dedicatedServers = data?.dedicatedServers ?? DEDICATED_SERVERS;
+  const storagePlans = data?.storagePlans ?? STORAGE_PLANS;
 
   return (
     <div>
@@ -83,7 +93,7 @@ export function PricingTabs() {
       {/* VPS Plans */}
       {activeTab === 'vps' && (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-          {VPS_PLANS.map((plan) => (
+          {vpsPlans.map((plan) => (
             <div
               key={plan.name}
               className={cn(
@@ -159,7 +169,7 @@ export function PricingTabs() {
               {tt('dedicatedCpuVps')}
             </h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {DEDICATED_CPU_PLANS.map((plan) => (
+              {dedicatedCpuPlans.map((plan) => (
                 <div
                   key={plan.name}
                   className="bg-white dark:bg-surface-dark rounded-xl p-6 border border-slate-200 dark:border-slate-700"
@@ -212,7 +222,7 @@ export function PricingTabs() {
                   </tr>
                 </thead>
                 <tbody>
-                  {DEDICATED_SERVERS.map((server) => (
+                  {dedicatedServers.map((server) => (
                     <tr key={server.name} className="border-b border-slate-100 dark:border-slate-800">
                       <td className="py-3 px-4 font-medium text-text-primary dark:text-text-primary-dark">{server.name}</td>
                       <td className="py-3 px-4 text-text-secondary dark:text-text-secondary-dark">{server.cpu}</td>
@@ -237,7 +247,7 @@ export function PricingTabs() {
       {/* Storage Plans */}
       {activeTab === 'storage' && (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-          {STORAGE_PLANS.map((plan, index) => (
+          {storagePlans.map((plan, index) => (
             <div
               key={plan.name}
               className={cn(
@@ -275,10 +285,6 @@ export function PricingTabs() {
         </div>
       )}
 
-      {/* VAT Note */}
-      <p className="mt-8 text-center text-sm text-text-secondary dark:text-text-secondary-dark">
-        {t('vat')}
-      </p>
     </div>
   );
 }

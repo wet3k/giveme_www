@@ -6,10 +6,17 @@ import { useTranslations } from 'next-intl';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { cn } from '@/lib/utils';
+import type { PricingFAQItem } from '@/lib/cms-types';
 
-export function PricingFAQ() {
+type PricingFAQProps = {
+  title?: string;
+  items?: PricingFAQItem[];
+};
+
+export function PricingFAQ({ title, items }: PricingFAQProps) {
   const t = useTranslations('pricing.faq');
-  const faqs = t.raw('items') as { question: string; answer: string }[];
+  const faqs = items?.length ? items : (t.raw('items') as PricingFAQItem[]);
+  const heading = title ?? t('title');
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
@@ -17,7 +24,7 @@ export function PricingFAQ() {
       <Container size="narrow">
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-text-primary dark:text-text-primary-dark">
-            {t('title')}
+            {heading}
           </h2>
         </div>
 

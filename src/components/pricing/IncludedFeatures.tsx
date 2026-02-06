@@ -3,6 +3,7 @@ import { Shield, Headphones, Clock, Wifi, Code, Users, BarChart3 } from 'lucide-
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { INCLUDED_FEATURES } from '@/lib/constants';
+import type { IncludedFeatureKey } from '@/lib/cms-types';
 
 const featureIcons = {
   ddosProtection: Shield,
@@ -14,9 +15,14 @@ const featureIcons = {
   monitoring: BarChart3,
 } as const;
 
-export function IncludedFeatures() {
+type IncludedFeaturesProps = {
+  features?: IncludedFeatureKey[];
+};
+
+export function IncludedFeatures({ features }: IncludedFeaturesProps) {
   const t = useTranslations('pricing');
   const tf = useTranslations('pricing.includedFeatures');
+  const featureList = features?.length ? features : INCLUDED_FEATURES;
 
   return (
     <Section variant="muted">
@@ -28,7 +34,7 @@ export function IncludedFeatures() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
-          {INCLUDED_FEATURES.map((featureKey) => {
+          {featureList.map((featureKey) => {
             const Icon = featureIcons[featureKey];
             return (
             <div

@@ -16,6 +16,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## CMS (Payload)
+
+This project uses Payload for a built-in admin UI at `/admin`.
+
+Required environment variables:
+
+```bash
+DATABASE_URI=postgres://user:password@localhost:5432/giveme_cloud
+PAYLOAD_SECRET=replace-with-a-long-random-string
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
