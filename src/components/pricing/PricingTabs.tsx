@@ -90,14 +90,14 @@ export function PricingTabs() {
                 'relative bg-white dark:bg-surface-dark rounded-2xl p-6',
                 'border-2 transition-all duration-300',
                 plan.popular
-                  ? 'border-primary-cyan dark:border-primary-cyan-dark shadow-lg'
+                  ? 'border-primary-cyan dark:border-primary-cyan-dark shadow-lg pt-10'
                   : 'border-slate-200 dark:border-slate-700 hover:border-primary-cyan/50 dark:hover:border-primary-cyan-dark/50'
               )}
             >
               {plan.popular && (
                 <Badge
                   variant="info"
-                  className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary-blue to-primary-cyan dark:from-primary-blue-dark dark:to-primary-cyan-dark text-white border-0"
+                  className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary-blue to-primary-cyan dark:from-primary-blue-dark dark:to-primary-cyan-dark text-white border-0"
                 >
                   {t('mostPopular')}
                 </Badge>
